@@ -3,7 +3,7 @@ import json
 import os
 import tempfile
 import onnxruntime_genai as og
-from schemas import HazardVerdict
+from schemas.schema import HazardVerdict
 
 
 class VLMService:

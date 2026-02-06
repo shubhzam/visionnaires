@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends
-from schemas import ImageAnalysisRequest, HazardVerdict, HealthResponse
-from service import get_vlm_service, VLMService
+from schemas.schema import ImageAnalysisRequest, HazardVerdict, HealthResponse
+from services.service import get_vlm_service, VLMService
 
 router = APIRouter()
 
